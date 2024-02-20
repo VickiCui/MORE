@@ -1,6 +1,6 @@
 ## MORE (Multi-mOdal REtrieval Augmented Generative Commonsense Reasoning)
 
-Code release for paper: [MORE:**M**ulti-m**O**dal **RE**trieval Augmented Generative Commonsense Reasoning](to be add). We propose a multi-modal retrieval augmented framework to assist LMs and MLMs in generating more sensible (commonsense-compliant) sentences.
+Code release for paper: [MORE:**M**ulti-m**O**dal **RE**trieval Augmented Generative Commonsense Reasoning](to_be_add). We propose a multi-modal retrieval augmented framework to assist LMs and MLMs in generating more sensible (commonsense-compliant) sentences.
 
 ## Install
 ```
