@@ -12,18 +12,17 @@ pip install datas/en_core_web_sm-3.0.0-py3-none-any.whl
 
 ## Retrieved Data
 
-You can download images crawl by us from [this link](to_be_add), or crawl images by yourself:
-
+You can download data crawled by us from [this link](to_be_add), or crawl by yourself:
 ```bash
+#image
 python src/grounding_image/crawl_image.py
 python src/grounding_image/remove_repeat_image.py
-```
 
-You can download text crawl by us from [this link](to_be_add), or crawl text by yourself:
-
-```bash
+#text
 python src/grounding_text/crawl_text.py --n_threads 8
 ```
+
+
 
 ## Get Features
 Extract image and text features in advance and store them as .lmdb to speed up training. The following scripts will result in two folders, i.e., `blip2_image_feats.lmdb` and `blip2_text_feats.lmdb` located at `./datas/commongen/`
