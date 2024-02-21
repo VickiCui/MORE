@@ -24,7 +24,7 @@ python src/grounding_text/crawl_text.py --n_threads 8
 ```
 In the downloaded data, the bing_images archive (174G in total) is split into parts of 5GB, merge data through:
 ```bash
-cat bing_images.tar.gz.* > bing_images.tar.gz
+cat bing_images/* > bing_images.tar.gz
 tar -xzvf bing_images.tar.gz
 ```
 
